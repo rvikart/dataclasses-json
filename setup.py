@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf8') as f:
     readme = f.read()
 
 setup(
-    name='dataclasses-json',
+    name='dataclasses-json-rvikart',
     version='0.5.7',
     packages=find_packages(exclude=('tests*',)),
     package_data={"dataclasses_json": ["py.typed"]},
